@@ -1,0 +1,19 @@
+.open-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.open-close:hover > .button-positive , .open-close:hover > .button-positive::before{
+  background-color: black;
+}
+
+.open-close:hover > .button-negative {
+  background-color: black;
+}

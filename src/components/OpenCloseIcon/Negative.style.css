@@ -1,0 +1,8 @@
+.button-negative {
+  width: 25px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 5px;
+  user-select: none;
+  pointer-events: none;
+}

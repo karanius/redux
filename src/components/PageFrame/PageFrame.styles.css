@@ -1,0 +1,31 @@
+.PageFrame {
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Box {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  height: 70%;
+  max-width: 800px;
+  box-shadow: 0 2px 3px 0px rgb(109, 109, 109);
+  display: flex;
+  flex-direction: column;
+}
+
+.searchEngine {
+  margin-bottom: 5px;
+}
+
+.children-section {
+  padding-left: 5px;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: scroll;
+}

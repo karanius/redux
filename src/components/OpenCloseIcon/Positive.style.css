@@ -1,0 +1,19 @@
+.button-positive {
+  width: 25px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 5px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.button-positive::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 5px;
+  background-color: gray;
+  transform: rotate(90deg);
+  border-radius: 5px;
+  user-select: none;
+}
